@@ -2,7 +2,6 @@
 
 namespace WithVisitorPattern
 {
-    #region Employee
     public class Employee : ISalary
     {
         public string EmployeeId
@@ -26,5 +25,4 @@ namespace WithVisitorPattern
         }
     }
 
-    #endregion
 }

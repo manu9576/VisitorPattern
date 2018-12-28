@@ -107,7 +107,7 @@ namespace VisitorPattern
                 EmployeeName = "Banketeshvar Narayan"
             };
             AddDataForEmployee(emp);
-            #region Calculate Net Earning of the Year
+
             double NetEarningoftheYear = 0.0;
             foreach (var monthlySalary_Earning in emp.MonthlySalary_Earnings)
             {
@@ -117,9 +117,7 @@ namespace VisitorPattern
             {
                 NetEarningoftheYear -= (monthlySalary_Deduction.ProvidentFund_EmployeeContribution + monthlySalary_Deduction.ProvidentFund_EmployerContribution + monthlySalary_Deduction.ProfessionTax + monthlySalary_Deduction.OtherDeduction);
             }
-
-            #endregion
-            #region Calculate TaxableAmount  
+  
             double TaxableAmount = 0.0;
             foreach (var monthlySalary_Earning in emp.MonthlySalary_Earnings)
             {
@@ -138,7 +136,7 @@ namespace VisitorPattern
                 TaxableAmount -= annualInvestment.InvestmentAmmount;
             }
 
-            #endregion
+
             Console.WriteLine("Annual Net Earning Amount : {0}", NetEarningoftheYear);
             Console.WriteLine("Annual Taxable Amount : {0}", TaxableAmount);
         }

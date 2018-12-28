@@ -1,9 +1,5 @@
 ﻿namespace WithVisitorPattern
 {
-    #region MonthlySalary_Deduction  
-
-    #endregion
-    #region AnnualInvestment  
     public class AnnualInvestment : ISalary
     {
         public string InvestmentDetails
@@ -21,6 +17,4 @@
             visitor.Visit(this);
         }
     }
-
-    #endregion
 }

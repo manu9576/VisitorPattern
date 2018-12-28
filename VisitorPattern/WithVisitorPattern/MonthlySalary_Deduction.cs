@@ -1,9 +1,6 @@
 ﻿namespace WithVisitorPattern
 {
-    #region MonthlySalary_Earning  
 
-    #endregion
-    #region MonthlySalary_Deduction  
     public class MonthlySalary_Deduction : ISalary
     {
         public string MonthName
@@ -41,6 +38,4 @@
             visitor.Visit(this);
         }
     }
-
-    #endregion
 }

@@ -2,7 +2,7 @@
 
 namespace WithoutVisitorPattern
 {
-    #region Employee
+
     public class Employee
     {
         public string EmployeeId
@@ -20,6 +20,6 @@ namespace WithoutVisitorPattern
         public List<AnnualInvestment> AnnualInvestments = new List<AnnualInvestment>();
         public List<MonthlyExpense> MonthlyExpenses = new List<MonthlyExpense>();
     }
-    #endregion
+
 }
 
