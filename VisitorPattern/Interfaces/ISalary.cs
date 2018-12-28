@@ -1,4 +1,4 @@
-﻿namespace WithVisitorPattern
+﻿namespace Interfaces
 {
     public interface ISalary
     {

@@ -1,15 +1,17 @@
-﻿using System.Collections.Generic;
+﻿using Interfaces;
+using System.Collections.Generic;
 
-namespace WithVisitorPattern
+namespace Models
 {
-    public class Employee : ISalary
+    public class Employee
     {
-        public string EmployeeId
+        public string Id
         {
             get;
             set;
         }
-        public string EmployeeName
+
+        public string Name
         {
             get;
             set;

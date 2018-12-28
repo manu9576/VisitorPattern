@@ -1,4 +1,6 @@
-﻿namespace WithVisitorPattern
+﻿using Interfaces;
+
+namespace Models
 {
     public class MonthlyExpense : ISalary
     {
@@ -7,14 +9,17 @@
             get;
             set;
         }
+
         public double MonthlyRent
         {
             get;
             set;
         }
+
         public void Accept(IVisitor visitor)
         {
             visitor.Visit(this);
         }
+
     }
 }

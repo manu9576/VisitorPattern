@@ -1,6 +1,8 @@
-﻿namespace WithoutVisitorPattern
+﻿using Interfaces;
+
+namespace Models
 {
-    public class AnnualInvestment
+    public class AnnualInvestment : ISalary
     {
         public string InvestmentDetails
         {
@@ -13,6 +15,10 @@
             get;
             set;
         }
+
+        public void Accept(IVisitor visitor)
+        {
+            visitor.Visit(this);
+        }
     }
 }
-

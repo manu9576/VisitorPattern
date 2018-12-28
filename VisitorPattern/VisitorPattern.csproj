@@ -55,20 +55,15 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="WithVisitorPattern\AnnualInvestment.cs" />
-    <Compile Include="WithVisitorPattern\Employee.cs" />
-    <Compile Include="WithVisitorPattern\ISalary.cs" />
-    <Compile Include="WithVisitorPattern\IVisitor.cs" />
-    <Compile Include="WithVisitorPattern\MonthlyExpense.cs" />
-    <Compile Include="WithVisitorPattern\MonthlySalary_Deduction.cs" />
-    <Compile Include="WithVisitorPattern\MonthlySalary_Earning.cs" />
-    <Compile Include="WithVisitorPattern\NetAnnualEarningVisitor.cs" />
-    <Compile Include="WithVisitorPattern\TaxableAmountVisitor.cs" />
-    <Compile Include="WithoutVisitorPattern\AnnualInvestment.cs" />
-    <Compile Include="WithoutVisitorPattern\Employee.cs" />
-    <Compile Include="WithoutVisitorPattern\MonthlyExpense.cs" />
-    <Compile Include="WithoutVisitorPattern\MonthlySalary_Deduction.cs" />
-    <Compile Include="WithoutVisitorPattern\MonthlySalary_Earning.cs" />
+    <Compile Include="Models\AnnualInvestment.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Interfaces\ISalary.cs" />
+    <Compile Include="Interfaces\IVisitor.cs" />
+    <Compile Include="Models\MonthlyExpense.cs" />
+    <Compile Include="Models\MonthlySalary_Deduction.cs" />
+    <Compile Include="Models\MonthlySalary_Earning.cs" />
+    <Compile Include="Visitors\NetAnnualEarningVisitor.cs" />
+    <Compile Include="Visitors\TaxableAmountVisitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

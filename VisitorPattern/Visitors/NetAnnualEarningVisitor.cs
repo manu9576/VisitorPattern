@@ -1,4 +1,7 @@
-﻿namespace WithVisitorPattern
+﻿using Interfaces;
+using Models;
+
+namespace Visitors
 {
     public class NetAnnualEarningVisitor : IVisitor
     {

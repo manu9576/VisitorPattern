@@ -1,4 +1,6 @@
-﻿namespace WithVisitorPattern
+﻿using Interfaces;
+
+namespace Models
 {
     public class MonthlySalary_Earning : ISalary
     {
