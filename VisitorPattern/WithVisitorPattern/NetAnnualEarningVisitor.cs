@@ -24,6 +24,4 @@
             //do nothing  
         }
     }
-
-    #endregion
 }

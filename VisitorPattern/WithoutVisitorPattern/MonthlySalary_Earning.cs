@@ -1,9 +1,5 @@
 ﻿namespace WithoutVisitorPattern
 {
-    #endregion
-
-    #region MonthlySalary_Earning  
-
     public class MonthlySalary_Earning
     {
         public string MonthName
@@ -52,6 +48,5 @@
             set;
         }
     }
-    #endregion
 }
 
