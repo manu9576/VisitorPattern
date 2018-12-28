@@ -7,26 +7,31 @@
             get;
             set;
         }
+
         public double ProvidentFund_EmployeeContribution
         {
             get;
             set;
         }
+
         public double ProvidentFund_EmployerContribution
         {
             get;
             set;
         }
+
         public double ProfessionTax
         {
             get;
             set;
         }
+
         public double TDS
         {
             get;
             set;
         }
+
         public double OtherDeduction
         {
             get;

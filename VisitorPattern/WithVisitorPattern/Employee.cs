@@ -14,6 +14,7 @@ namespace WithVisitorPattern
             get;
             set;
         }
+
         public List<ISalary> Salaries = new List<ISalary>();
 
         public void Accept(IVisitor visitor)

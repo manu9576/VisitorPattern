@@ -63,7 +63,7 @@
     <Compile Include="WithVisitorPattern\MonthlySalary_Deduction.cs" />
     <Compile Include="WithVisitorPattern\MonthlySalary_Earning.cs" />
     <Compile Include="WithVisitorPattern\NetAnnualEarningVisitor.cs" />
-    <Compile Include="TaxableAmountVisitor.cs" />
+    <Compile Include="WithVisitorPattern\TaxableAmountVisitor.cs" />
     <Compile Include="WithoutVisitorPattern\AnnualInvestment.cs" />
     <Compile Include="WithoutVisitorPattern\Employee.cs" />
     <Compile Include="WithoutVisitorPattern\MonthlyExpense.cs" />

@@ -1,6 +1,5 @@
 ﻿namespace WithVisitorPattern
 {
-
     public class MonthlyExpense : ISalary
     {
         public string MonthName

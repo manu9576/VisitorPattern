@@ -7,11 +7,13 @@
             get;
             set;
         }
+
         public double InvestmentAmmount
         {
             get;
             set;
         }
+
         public void Accept(IVisitor visitor)
         {
             visitor.Visit(this);

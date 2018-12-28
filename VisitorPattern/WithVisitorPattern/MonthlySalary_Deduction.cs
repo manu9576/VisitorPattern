@@ -1,6 +1,5 @@
 ﻿namespace WithVisitorPattern
 {
-
     public class MonthlySalary_Deduction : ISalary
     {
         public string MonthName
